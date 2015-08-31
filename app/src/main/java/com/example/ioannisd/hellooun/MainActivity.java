@@ -22,15 +22,25 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * An {@link Activity} showing a tuggable "Hello World!" card.
- * <p/>
- * The main content view is composed of a one-card {@link CardScrollView} that provides tugging
- * feedback to the user when swipe gestures are detected.
- * If your Glassware intends to intercept swipe gestures, you should set the content view directly
- * and use a {@link com.google.android.glass.touchpad.GestureDetector}.
- *
- * @see <a href="https://developers.google.com/glass/develop/gdk/touch">GDK Developer Guide</a>
- */
+* ****************************************************************************
+        * Copyright (C) 2015 Open Universiteit Nederland
+        * <p/>
+        * This library is free software: you can redistribute it and/or modify
+        * it under the terms of the GNU Lesser General Public License as published by
+        * the Free Software Foundation, either version 3 of the License, or
+        * (at your option) any later version.
+        * <p/>
+        * This library is distributed in the hope that it will be useful,
+        * but WITHOUT ANY WARRANTY; without even the implied warranty of
+        * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+        * GNU Lesser General Public License for more details.
+        * <p/>
+        * You should have received a copy of the GNU Lesser General Public License
+        * along with this library.  If not, see <http://www.gnu.org/licenses/>.
+        * <p/>
+        * Contributors: Stefaan Ternier
+        * ****************************************************************************
+        */
 public class MainActivity extends Activity {
 
     /**
